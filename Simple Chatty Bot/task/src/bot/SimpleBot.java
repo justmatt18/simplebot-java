@@ -51,11 +51,7 @@ public class SimpleBot {
         System.out.println("3. To determine the execution time of a program.");
         System.out.println("4. To interrupt the execution of a program");
         int answer = scanner.nextInt();
-        if (answer == 2) {
-            return;
-        } else {
-            test();
-        }
+        if (answer != 2) {test();}
     }
 
     static void end() {
